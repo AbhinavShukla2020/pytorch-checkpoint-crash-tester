@@ -10,10 +10,6 @@ manifest only after every worker reaches the commit barrier. A restart ignores
 directories without a valid manifest, so a partially written checkpoint is
 never selected as the recovery point.
 
-> **Practice-history note:** commit timestamps in this repository are deliberately
-> distributed across a simulated March–June 2026 timeline for Git practice. They
-> are not the original implementation or testing dates.
-
 ## What it verifies
 
 - Model and optimizer state resume from the last complete step.
